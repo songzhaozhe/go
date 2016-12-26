@@ -1,0 +1,35 @@
+(;FF[4]CA[UTF-8]AP[gogui-twogtp:1.4.9]
+KM[6.5]PB[go_player_v2_mcts:1.0]PW[go_player_v2_mcts:1.0]DT[2016-12-25]RE[B+R]
+C[Black command: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run2.sh
+White command: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run.sh
+Black version: 1.0
+White version: 1.0
+Result[Black\]: B+R
+Result[White\]: B+R
+Host: BcmiGPU2 (Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz)
+Date: December 25, 2016 11:23:20 PM CST]
+;B[dd];W[pp];B[pc];W[dp];B[qn];W[nq];B[qd];W[jc];B[lc];W[fc]
+;B[cf];W[db];B[cc];W[hd];B[ci];W[qj];B[qg];W[qp];B[fq];W[cn]
+;B[dr];W[cq];B[iq];W[ql];B[lq];W[pm];B[kc];W[jd];B[nd];W[ck]
+;B[ep];W[dq];B[eq];W[cr];B[mq];W[np];B[lo];W[mn];B[ln];W[mm]
+;B[cb];W[dn];B[cj];W[dk];B[qi];W[ri];B[qh];W[pj];B[nh];W[jb]
+;B[eb];W[fb];B[rh];W[nr];B[io];W[bk];B[bj];W[rj];B[le];W[ec]
+;B[dg];W[ma];B[mb];W[la];B[na];W[kb];B[lb];W[ka];B[nb];W[nj]
+;B[mr];W[ns];B[fn];W[lm];B[km];W[kl];B[jm];W[er];B[fr];W[ds]
+;B[jl];W[kk];B[ak];W[al];B[aj];W[bl];B[oi];W[oj];B[lh];W[mi]
+;B[mh];W[pi];B[ph];W[fl];B[gm];W[fs];B[gr];W[gl];B[hm];W[fe]
+;B[dc];W[ea];B[mo];W[no];B[ef];W[ee];B[de];W[ca];B[bb];W[jf]
+;B[kg];W[gg];B[jg];W[if];B[lj];W[lk];B[ms];W[kj];B[li];W[mj]
+;B[gs];W[em];B[ei];W[dj];B[di];W[kf];B[lf];W[eo];B[fo];W[fj]
+;B[ba];W[da];B[es];W[dr];B[fi];W[gj];B[fg];W[gh];B[ff];W[gf]
+;B[ih];W[ji];B[jh];W[ki];B[ik];W[hl];B[il];W[kd];B[ld];W[ni]
+;B[oh];W[mp];B[lp];W[en];B[hk];W[gk];B[ej];W[ek];B[ed];W[fd]
+;B[si];W[sj];B[sh];W[fh];B[eh];W[hh];B[ig];W[hg];B[ke];W[je]
+;B[ii];W[hj];B[ij];W[fs];B[kh];W[es];B[fm];W[mk];B[jk];W[jj]
+;B[hi];W[gi];B[eg];W[rp];B[fa];W[ga];B[fp];W[nn];B[kn];W[ll]
+;B[ha];W[gb];B[bi];W[hb];B[df];W[ge];B[ab];W[eb];B[ae];W[qb]
+;B[qc];W[ia];B[be];W[el];B[pb];W[hf];B[mc];W[gc];B[pa];W[bg]
+;B[bh];W[ah];B[cg];W[do];B[lg];W[ag];B[bf];W[af];B[ai];W[ah]
+;B[ag];W[or];B[im];W[bm];B[af];W[am];B[ip];W[dm];B[dh];W[pn]
+;B[kr];W[oo];B[ls];W[qm];B[rg];W[ks];B[js];W[sg];B[sf];W[ib]
+;B[sg];W[pq];B[re];W[qq];B[gp];W[fk];B[hs];W[se];B[sd];W[rl])

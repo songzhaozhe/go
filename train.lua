@@ -88,7 +88,8 @@ local callbacks = {
         local tnt = require 'torchnet'
         return tnt.IndexedDataset{
             fields = { opt.datasource .. "_" .. partition },
-            path = './dataset'
+            --fields = {"test_train"},
+	    path = './dataset_save'
         }
     end,
     forward_model_generator = function(dataset, partition)

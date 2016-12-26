@@ -29,7 +29,7 @@ local curr_seq = 0
 
 local util_pkg = { }
 
-function util_pkg.init(max_batch, feature_type)
+function util_pkg.init(max_batch, feature_type,rank)
     -- Default policy, used to insert some heuristics.
     util_pkg.def_policy = dp.new()
     -- For server use.
@@ -39,7 +39,8 @@ function util_pkg.init(max_batch, feature_type)
     util_pkg.max_batch = max_batch
     util_pkg.opt = {
         feature_type = feature_type,
-        userank = true
+        userank = true,
+        rank = rank
     }
     util_pkg.features = { }
     util_pkg.t_received = { }
@@ -90,7 +91,7 @@ function util_pkg.extract_board_feature(k)
         board.show(mboard.board, "last_move")
             -- require 'fb.debugger'.enter()
     end
-    local feature, named_features = goutils.extract_feature(mboard.board, player, util_pkg.opt, '9d') 
+    local feature, named_features = goutils.extract_feature(mboard.board, player, util_pkg.opt, util_pkg.opt.rank) 
     -- Save feature for future use.
     util_pkg.features[k] = named_features 
     util_pkg.t_received[k] = t_received

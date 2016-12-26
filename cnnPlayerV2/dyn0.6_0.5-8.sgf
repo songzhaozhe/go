@@ -1,0 +1,39 @@
+(;FF[4]CA[UTF-8]AP[gogui-twogtp:1.4.9]
+KM[6.5]PB[go_player_v2_mcts:1.0]PW[go_player_v2_mcts:1.0]DT[2016-12-24]RE[W+R]
+C[Black command: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run.sh
+White command: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run2.sh
+Black version: 1.0
+White version: 1.0
+Result[Black\]: W+R
+Result[White\]: W+R
+Host: BcmiGPU2 (Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz)
+Date: December 24, 2016 8:28:41 AM CST]
+;B[pd];W[pp];B[dc];W[cp];B[ep];W[de];B[ce];W[eq];B[dd];W[dp]
+;B[cf];W[jc];B[hc];W[nc];B[qf];W[pb];B[qi];W[ld];B[qn];W[nq]
+;B[dk];W[fp];B[rp];W[qq];B[pl];W[eo];B[di];W[kq];B[qc];W[ic]
+;B[hd];W[od];B[pe];W[je];B[po];W[qp];B[jp];W[kp];B[jn];W[jo]
+;B[io];W[ko];B[im];W[hn];B[in];W[if];B[lm];W[cl];B[ck];W[gf]
+;B[bl];W[mh];B[oi];W[qb];B[mj];W[rq];B[ro];W[iq];B[mn];W[ip]
+;B[ng];W[mg];B[nf];W[ki];B[rb];W[hb];B[gb];W[ib];B[fc];W[lj]
+;B[mk];W[no];B[nn];W[oo];B[pn];W[fg];B[dg];W[bm];B[dl];W[cm]
+;B[bk];W[pc];B[rc];W[mf];B[ne];W[hi];B[jj];W[ji];B[ho];W[gp]
+;B[lk];W[ij];B[dm];W[cn];B[fi];W[gh];B[nh];W[md];B[mi];W[li]
+;B[mo];W[mp];B[jk];W[ik];B[il];W[gk];B[ee];W[ge];B[gd];W[ra]
+;B[sb];W[dn];B[fl];W[fk];B[ek];W[fj];B[ej];W[gi];B[kn];W[lo]
+;B[on];W[sq];B[qo];W[op];B[sp];W[eh];B[dh];W[gl];B[gn];W[hl]
+;B[hm];W[fm];B[ei];W[fe];B[fd];W[ef];B[df];W[fh];B[kk];W[al]
+;B[ak];W[am];B[hp];W[hq];B[me];W[le];B[id];W[jd];B[ga];W[ha]
+;B[he];W[hf];B[oe];W[nd];B[fn];W[en];B[el];W[em];B[eg];W[ff]
+;B[ln];W[qa];B[gm];W[ie];B[go];W[fo];B[kj];W[lf];B[qd];W[gj]
+;B[sa];W[ed];B[ec];W[jq];B[ob];W[oc];B[gc];W[nb];B[jl];W[ii]
+;B[ni];W[lh];B[cr];W[bq];B[br];W[cq];B[de];W[dr];B[aq];W[ap]
+;B[ao];W[bp];B[bj];W[bo];B[an];W[bn];B[an];W[ao];B[as];W[ar]
+;B[cs];W[aq];B[ds];W[es];B[er];W[bs];B[oa];W[na];B[re];W[pa]
+;B[ds];W[fr];B[fs];W[gs];B[eb];W[np];B[fa];W[lp];B[sn];W[hk]
+;B[ed];W[jp];B[qm];W[gq];B[hn];W[cs];B[co];W[do];B[rn];W[jb]
+;B[ea];W[kg];B[ql];W[jh];B[ol];W[kf];B[qk];W[cb];B[cc];W[bc]
+;B[bd];W[bb];B[db];W[ca];B[ac];W[ab];B[ad];W[ba];B[da];W[as]
+;B[aa];W[ba];B[bb];W[ab];B[ca];W[ia];B[aa];W[bg];B[bh];W[ai]
+;B[bi];W[ah];B[aj];W[ag];B[bf];W[lb];B[cg];W[af];B[ae];W[kb]
+;B[ka];W[ja];B[la];W[ma];B[la];W[ka];B[sc];W[lc];B[sd];W[oa]
+;B[se];W[la];B[kd];W[kc];B[hg];W[gg];B[sf];W[ke];B[rg];W[qh])

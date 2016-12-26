@@ -1,0 +1,26 @@
+# Black: go_player_v2_mcts
+# BlackCommand: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run.sh
+# BlackLabel: go_player_v2_mcts:1.0
+# BlackVersion: 1.0
+# Date: December 19, 2016 12:05:18 AM CST
+# Host: BcmiGPU2 (Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz)
+# Komi: 6.5
+# Referee: -
+# Size: 19
+# White: go_player_v2_mcts
+# WhiteCommand: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run2.sh
+# WhiteLabel: go_player_v2_mcts:1.0
+# WhiteVersion: 1.0
+# Xml: 0
+#
+#GAME	RES_B	RES_W	RES_R	ALT	DUP	LEN	TIME_B	TIME_W	CPU_B	CPU_W	ERR	ERR_MSG
+0	B+R	B+R	B+R	0	-	181	1368.6	1371.1	0	0	0	
+1	W+0.5	W+0.5	?	1	-	381	2972.8	2933	0	0	0	
+2	B+R	B+R	B+R	0	-	239	1839.1	1835.4	0	0	0	
+3	B+R	B+R	B+R	1	-	182	1389	1376	0	0	0	
+4	B+R	B+R	B+R	0	-	187	1415.8	1421.9	0	0	0	
+5	B+R	B+R	B+R	1	-	290	2248.9	2225.5	0	0	0	
+6	B+R	B+R	B+R	0	-	179	1352.5	1356.2	0	0	0	
+7	B+R	B+R	B+R	1	-	186	1408.1	1410.2	0	0	0	
+8	B+R	B+R	B+R	0	-	183	1382.3	1388	0	0	0	
+9	B+R	B+R	B+R	1	-	178	1343.5	1346.7	0	0	0	

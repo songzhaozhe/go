@@ -31,7 +31,8 @@ local max_batch = opt_internal.async and 128 or 32
 -- previously this number is indefinite, i.e., wait until there is a package (which might cause deadlock).
 local num_attempt = 10
 
-cutorch.setDevice(opt_internal.gpu)
+cutorch.setDevice(3)
+--cutorch.setDevice(opt_internal.gpu)
 local model_filename = common.codenames[opt_internal.codename].model_name
 local feature_type = common.codenames[opt_internal.codename].feature_type
 assert(model_filename, "opt.codename [" .. opt_internal.codename .. "] not found!")
@@ -55,7 +56,7 @@ local block_ids = torch.DoubleTensor(max_batch)
 local sortProb = torch.FloatTensor(max_batch, common.board_size * common.board_size)
 local sortInd = torch.FloatTensor(max_batch, common.board_size * common.board_size)
 
-util_pkg.init(max_batch, feature_type)
+util_pkg.init(max_batch, feature_type,opt_internal.rank)
 -- util_pkg.dbg_set()
 
 print("ready")

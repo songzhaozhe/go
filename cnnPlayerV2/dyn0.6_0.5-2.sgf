@@ -1,0 +1,36 @@
+(;FF[4]CA[UTF-8]AP[gogui-twogtp:1.4.9]
+KM[6.5]PB[go_player_v2_mcts:1.0]PW[go_player_v2_mcts:1.0]DT[2016-12-24]RE[W+R]
+C[Black command: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run.sh
+White command: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run2.sh
+Black version: 1.0
+White version: 1.0
+Result[Black\]: W+R
+Result[White\]: W+R
+Host: BcmiGPU2 (Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz)
+Date: December 24, 2016 3:33:08 AM CST]
+;B[pd];W[dp];B[cd];W[pp];B[cn];W[ed];B[ec];W[fc];B[dc];W[qf]
+;B[nc];W[fd];B[cf];W[jd];B[qd];W[qi];B[nq];W[qn];B[fq];W[eo]
+;B[cq];W[pq];B[kq];W[cp];B[iq];W[dq];B[ck];W[lc];B[mc];W[ld]
+;B[ne];W[eg];B[cg];W[np];B[mq];W[pk];B[di];W[fp];B[gq];W[cr]
+;B[mp];W[no];B[fi];W[gh];B[eb];W[fb];B[ph];W[qh];B[mb];W[gi]
+;B[mf];W[kf];B[ln];W[fj];B[ej];W[fh];B[mm];W[om];B[re];W[ei]
+;B[dj];W[or];B[rf];W[rg];B[pg];W[qg];B[lb];W[jb];B[kb];W[jc]
+;B[ji];W[jg];B[ho];W[bo];B[il];W[bn];B[bl];W[nk];B[mk];W[nj]
+;B[nh];W[mj];B[lk];W[er];B[ih];W[ig];B[hj];W[nr];B[mr];W[gs]
+;B[hr];W[de];B[ce];W[kj];B[jk];W[gn];B[hn];W[cm];B[gm];W[bm]
+;B[bk];W[oq];B[lj];W[ki];B[li];W[kh];B[nl];W[ol];B[kk];W[mo]
+;B[lo];W[em];B[go];W[fa];B[da];W[pi];B[pe];W[ms];B[ls];W[ns]
+;B[lr];W[nm];B[ml];W[dh];B[ch];W[hh];B[fn];W[en];B[jj];W[jh]
+;B[ii];W[gk];B[hk];W[dl];B[df];W[ef];B[dd];W[ee];B[hs];W[fr]
+;B[gr];W[fs];B[gl];W[oi];B[pf];W[oh];B[og];W[ja];B[md];W[le]
+;B[lg];W[mh];B[mg];W[ni];B[ng];W[sf];B[se];W[sg];B[qe];W[al]
+;B[ak];W[am];B[dg];W[eh];B[mn];W[nn];B[kc];W[kd];B[fo];W[ep]
+;B[gp];W[ka];B[la];W[kg];B[ea];W[cl];B[dk];W[fk];B[ek];W[el]
+;B[ci];W[eq];B[lh];W[mi];B[me];W[lf];B[hi];W[gj];B[fl];W[fm]
+;B[gn];W[hg];B[lp];W[qb];B[rc];W[rb];B[sb];W[sc];B[sd];W[ri]
+;B[hl];W[fi];B[ob];W[ib];B[db];W[ga];B[na];W[ha];B[bj];W[ia]
+;B[sc];W[ok];B[pb];W[hb];B[qc];W[ra];B[pa];W[qa];B[sa];W[op]
+;B[qr];W[rp];B[rq];W[qq];B[sr];W[rs];B[qs];W[sp];B[rr];W[pr]
+;B[ps];W[os];B[ss];W[sq];B[jq];W[rs];B[qs];W[rr];B[jr];W[qr]
+;B[js];W[ps];B[ks];W[qs];B[ra];W[qa];B[bq];W[br];B[qb];W[rk]
+;B[qa];W[ar];B[pc];W[as];B[is];W[aq];B[ij];W[dn];B[in];W[co])

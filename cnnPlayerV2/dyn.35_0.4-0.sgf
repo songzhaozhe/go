@@ -1,0 +1,37 @@
+(;FF[4]CA[UTF-8]AP[gogui-twogtp:1.4.9]
+KM[6.5]PB[go_player_v2_mcts:1.0]PW[go_player_v2_mcts:1.0]DT[2016-12-25]RE[B+R]
+C[Black command: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run.sh
+White command: /home/huanghe/lxt/darkforestGo/cnnPlayerV2/run2.sh
+Black version: 1.0
+White version: 1.0
+Result[Black\]: B+R
+Result[White\]: B+R
+Host: BcmiGPU2 (Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz)
+Date: December 25, 2016 7:44:48 PM CST]
+;B[dp];W[pd];B[dc];W[pp];B[nc];W[de];B[ce];W[jd];B[dd];W[lc]
+;B[qj];W[qf];B[qm];W[pc];B[nq];W[pn];B[ro];W[pm];B[ql];W[fq]
+;B[jp];W[cn];B[dn];W[dm];B[co];W[en];B[do];W[em];B[cm];W[cl]
+;B[bn];W[fo];B[bl];W[hq];B[ck];W[dr];B[iq];W[hp];B[mp];W[oq]
+;B[nr];W[no];B[mo];W[nm];B[qh];W[mn];B[ir];W[hc];B[df];W[ne]
+;B[ee];W[md];B[qo];W[po];B[rg];W[rf];B[qq];W[qp];B[rp];W[pq]
+;B[qr];W[pk];B[qk];W[qg];B[oi];W[km];B[ko];W[nj];B[ni];W[mj]
+;B[rh];W[ek];B[jn];W[ei];B[jm];W[kl];B[gf];W[gb];B[ci];W[eq]
+;B[eb];W[cq];B[dh];W[he];B[hf];W[if];B[ig];W[jf];B[hh];W[jg]
+;B[ii];W[gj];B[jh];W[ok];B[kh];W[kj];B[sf];W[re];B[hr];W[gr]
+;B[bp];W[bq];B[or];W[lf];B[dl];W[el];B[aq];W[ar];B[ap];W[br]
+;B[og];W[of];B[pg];W[pf];B[hm];W[gl];B[pr];W[ln];B[io];W[se]
+;B[sg];W[fh];B[ge];W[hd];B[ng];W[mf];B[fb];W[fc];B[ec];W[gc]
+;B[eg];W[gm];B[hn];W[gn];B[dj];W[ej];B[dk];W[lo];B[lp];W[hs]
+;B[is];W[gs];B[ip];W[ho];B[li];W[lj];B[jk];W[kk];B[hk];W[gk]
+;B[np];W[oo];B[pl];W[ol];B[kg];W[kf];B[hl];W[jl];B[il];W[jj]
+;B[ik];W[qn];B[rn];W[pj];B[pi];W[mh];B[nh];W[fa];B[ea];W[ga]
+;B[ep];W[fp];B[fd];W[fg];B[ff];W[gi];B[eh];W[gh];B[gg];W[nf]
+;B[cp];W[dq];B[mi];W[mg];B[hi];W[oj];B[ji];W[hj];B[ij];W[kn]
+;B[di];W[eo];B[ki];W[lg];B[lh];W[gd];B[op];W[om];B[in];W[go]
+;B[kp];W[fi];B[cn];W[er];B[im];W[gq];B[ph];W[nn];B[qi];W[fk]
+;B[cl];W[gp];B[jo];W[ie];B[hg];W[as];B[rq];W[ml];B[rm];W[lk]
+;B[ih];W[sq];B[sp];W[sr];B[rr];W[fm];B[pb];W[qb];B[ss];W[sr]
+;B[sq];W[ob];B[fe];W[rs];B[qs];W[oc];B[ef];W[nb];B[rj];W[nk]
+;B[sn];W[si];B[sj];W[rd];B[sh];W[pe];B[ri];W[qa];B[sk];W[pa]
+;B[sl];W[cb];B[cc];W[bc];B[bd];W[bb];B[db];W[ca];B[ac];W[ab]
+;B[ad])
