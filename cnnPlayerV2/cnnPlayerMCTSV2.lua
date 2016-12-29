@@ -34,7 +34,7 @@ local opt = pl.lapp[[
     --tree_to_json                           Whether we save the tree to json file for visualization. Note that pipe_path will be used.
     --num_tree_thread   (default 16)         The number of threads used to expand MCTS tree.
     --num_gpu           (default 1)          The number of gpus to use for local play.
-    --sigma             (default 0.05)       Sigma used to perturb the win rate in MCTS search.
+    --sigma             (default 0)       Sigma used to perturb the win rate in MCTS search.
     --use_sigma_over_n                       use sigma / n (or sqrt(nparent/n)). This makes sigma small for nodes with confident win rate estimation.
     --num_virtual_games (default 0)          Number of virtual games we use.
     --acc_prob_thres    (default 0.8)        Accumulated probability threshold. We remove the remove if by the time we see it, the accumulated prob is greater than this thres.
@@ -73,28 +73,28 @@ local opt = pl.lapp[[
 ]]
 
 local function load_params_for_formal_game()
-    opt.rollout = 1000000  --       (default 1000)         The number of rollout we use.
+    opt.rollout = 10000000  --       (default 1000)         The number of rollout we use.
     opt.dcnn_rollout = -1          -- The number of dcnn rollout we use (If we set to -1, then it is the same as rollout), if cpu_only is set, then dcnn_rollout is not used.
     opt.dp_max_depth = 10000 --    (default 10000)        The max_depth of default policy.
     opt.verbose = 1 --      (default 1)            The verbose level (1 = critical, 2 = info, 3 = debug)
-    --opt.print_tree = true --                             Whether print the search tree.
+    opt.print_tree = false --                             Whether print the search tree.
     opt.max_send_attempts = 3 -- (default 3)          #attempts to send to the server.
     --opt.pipe_path = "/home/huanghe/lxt/data" --         (default "/data/local/go/") Pipe path
     opt.tier_name = "ai.go-evaluator" --         (default "ai.go-evaluator") Tier name
     opt.server_type = "local" --       (default "local")                 We can choose "local" or "cluster"
     opt.tree_to_json = false --                           Whether we save the tree to json file for visualization. Note that pipe_path will be used.
-    opt.num_tree_thread = 16 --   (default 16)         The number of threads used to expand MCTS tree.
+    opt.num_tree_thread = 64 --   (default 16)         The number of threads used to expand MCTS tree.
     opt.num_virtual_games = 5
     opt.acc_prob_thres = 1 --    (default 0.8)        Accumulated probability threshold. We remove the remove if by the time we see it, the accumulated prob is greater than this thres.
     opt.max_num_move = 7 --      (default 20)          Maximum number of moves to consider in each tree node.
     opt.min_num_move = 1    --  (default 1)          Minimum number of moves to consider in each tree node.
     opt.decision_mixture_ratio = 5.0 -- (default 5.0)   Mixture MCTS count ratio with cnn_confidence.
-    opt.win_rate_thres = 0.0  --  (default 0.0)        If the win rate is lower than that, resign.
+    opt.win_rate_thres = -1  --  (default 0.0)        If the win rate is lower than that, resign.
     opt.use_pondering = true --                        Whether we use pondering
-    --opt.dynkomi_factor = 0.0 --   (default 0.0)        Use dynkomi_factor
+    opt.dynkomi_factor = 0.035 --   (default 0.0)        Use dynkomi_factor
     opt.single_move_return = false --                     Use single move return (When we only have one choice, return the move immediately)
     opt.expand_search_endgame = false --                  Whether we expand the search in end game.
-    -- opt.default_policy= "v2" --    (default "v2")       The default policy used. Could be "simple", "pachi", "v2".
+    opt.default_policy= "v2" --    (default "v2")       The default policy used. Could be "simple", "pachi", "v2".
     opt.default_policy_pattern_file = "../models/playout-model.bin" -- The default policy pattern file
     opt.default_policy_temperature = 0.5
     opt.online_model_alpha = 0.0 --         (default 0.0)      Whether we use online model and its alpha
@@ -102,7 +102,7 @@ local function load_params_for_formal_game()
     opt.use_rave = false --                               Whether we use RAVE.
     opt.use_cnn_final_score = false --                    Whether we use CNN final score.
     opt.min_ply_to_use_cnn_final_score = 100 -- (default 100)     When to use cnn final score.
-    opt.final_mixture_ratio = 0.5 -- (default 0.5)    The mixture ratio we used.
+    opt.final_mixture_ratio = 0.35 -- (default 0.5)    The mixture ratio we used.
     opt.use_old_uct = false
     opt.percent_playout_in_expansion = 5
     opt.use_async = false      --                                 Open async model.

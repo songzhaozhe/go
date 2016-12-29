@@ -31,8 +31,8 @@ local max_batch = opt_internal.async and 128 or 32
 -- previously this number is indefinite, i.e., wait until there is a package (which might cause deadlock).
 local num_attempt = 10
 
-cutorch.setDevice(3)
---cutorch.setDevice(opt_internal.gpu)
+--cutorch.setDevice(3)
+cutorch.setDevice(opt_internal.gpu)
 local model_filename = common.codenames[opt_internal.codename].model_name
 local feature_type = common.codenames[opt_internal.codename].feature_type
 assert(model_filename, "opt.codename [" .. opt_internal.codename .. "] not found!")
@@ -43,7 +43,7 @@ end
 print("Loading model = " .. model_filename)
 local model = torch.load(model_filename)
 print("Loading complete")
-
+print(model)
 -- Server side. 
 local ex = C.ExLocalInit(opt_internal.pipe_path, opt_internal.gpu - 1, common.TRUE) 
 print("CNN Exchanger initialized.")

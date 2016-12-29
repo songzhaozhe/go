@@ -1,0 +1,26 @@
+# Black: go_player_v2_mcts
+# BlackCommand: /home/cewu/song/go/cnnPlayerV2/run.sh
+# BlackLabel: go_player_v2_mcts:1.0
+# BlackVersion: 1.0
+# Date: December 27, 2016 11:20:09 PM CST
+# Host: mvig (Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz)
+# Komi: 6.5
+# Referee: -
+# Size: 19
+# White: go_player_v2_mcts
+# WhiteCommand: /home/cewu/song/go/cnnPlayerV2/run2.sh
+# WhiteLabel: go_player_v2_mcts:1.0
+# WhiteVersion: 1.0
+# Xml: 0
+#
+#GAME	RES_B	RES_W	RES_R	ALT	DUP	LEN	TIME_B	TIME_W	CPU_B	CPU_W	ERR	ERR_MSG
+0	W+R	W+R	W+R	0	-	310	1674.4	1684.9	0	0	0	
+1	W+R	W+R	W+R	1	-	311	1682.9	1682.2	0	0	0	
+2	W+R	W+R	W+R	0	-	300	1624.5	1631	0	0	0	
+3	W+R	W+R	W+R	1	-	301	1635	1636.4	0	0	0	
+4	W+R	W+R	W+R	0	-	220	1164.1	1173.2	0	0	0	
+5	B+R	B+R	B+R	1	-	330	1804.9	1796.4	0	0	0	
+6	W+2.5	W+2.5	?	0	-	381	2051.1	2063.6	0	0	0	
+7	W+0.5	W+0.5	?	1	-	417	2233.9	2223.5	0	0	0	
+8	W+R	W+R	W+R	0	-	260	1391	1401.4	0	0	0	
+9	B+2.5	B+2.5	?	1	-	379	2053.9	2045.5	0	0	0	

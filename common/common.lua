@@ -45,8 +45,8 @@ common.codenames = {
         model_name = paths.concat(script_path, "../models/df2.bin"), 
         feature_type = 'extended'
     },
-    df2_cpu = {
-        model_name = paths.concat(script_path, "../models/df2_cpu.bin"), 
+    darkforesn = {
+        model_name = paths.concat(script_path, "../models/dfn.bin"), 
         feature_type = 'extended'
     },
 }

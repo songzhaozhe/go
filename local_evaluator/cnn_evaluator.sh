@@ -20,7 +20,7 @@ echo output path = $OUTPUT_PATH
 OUTPUT=$OUTPUT_PATH/cnn_eval
 for i in `seq 1 $NUM_GPU`; do  
    echo "" > $OUTPUT-${i}.log
-   th cnn_evaluator.lua -g $i --rank $OTHER_OPTS --pipe_path $OUTPUT_PATH >> $OUTPUT-${i}.log 2>&1 & 
+   th cnn_evaluator.lua -g $i --pipe_path $OUTPUT_PATH >> $OUTPUT-${i}.log 2>&1 & 
    echo $!
 done
 
